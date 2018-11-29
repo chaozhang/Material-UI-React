@@ -1,0 +1,139 @@
+.page-gallery
+	display flex
+	color color-blue-aluminium
+	
+
+	.right
+		width 100%
+		position relative
+		display flex
+		justify-content center
+		flex auto
+
+		> div
+			width 100%
+			display flex
+			justify-content center
+			align-items center
+			flex-direction column
+			
+			.tabs
+				width 100%;
+			
+			&.section-button
+				
+				.gallery-content > div
+					display flex
+					width 100%
+					height 100%
+					flex-direction column
+
+				.section
+					width 100%
+					display flex
+					margin 10px 0
+					justify-content space-around
+					align-items center
+					height 60px
+					border 1px solid #ddd
+
+					
+			&.section-table
+				.ReactTable
+					width 100%
+					
+			&.section-sidenav
+				.sidenav
+					position relative
+					left 20%
+
+					.logo-container
+						background transparent url($imagePath + '/logo-52x40.png') no-repeat 10px 10px
+
+			&.section-spinner
+				.spinners-list
+					display flex
+					justify-content space-around
+					align-items center
+					width 100%
+					
+			&.section-progress
+				.progress-list
+					flex-direction column
+					display flex
+					justify-content space-around
+					align-items center
+					width 100%
+
+					> div
+						width 100%
+
+			&.section-avatar
+				.avatar-list
+					flex-direction column
+					display flex
+					justify-content space-around
+					align-items center
+					width 100%
+					
+					> div
+						width 90%
+						background-color #eeeeee
+					
+					.section
+						display flex
+						justify-content space-around
+				
+			
+			&.section-messagebar
+				.messagebar-list
+					flex-direction column
+					display flex
+					justify-content center
+					align-items center
+					width 100%
+					
+					.message-bar
+						margin 20px 0
+						max-width 350px
+						width 80%
+			
+			&.section-notification, &.section-dialog
+				.main
+					width 100%
+					display flex
+					justify-content center
+					align-items center
+
+			&.section-form
+				.form
+					width 100%
+
+				form
+					> div
+						flex-direction column
+
+					.select
+						width 200px
+						margin-top 20px
+
+					button
+						margin-top 20px
+
+			.gallery-content
+				display flex
+				width 100%
+				height 100%
+				padding 20px
+
+				.no-content
+					margin auto
+
+				.markdown
+					width 100%
+					background-color color-blue-athens
+				
+				h3
+					width 90%
+					margin 10px 0
+

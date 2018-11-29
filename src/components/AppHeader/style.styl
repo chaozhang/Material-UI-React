@@ -1,0 +1,56 @@
+header.top
+	.toolbar
+		display flex
+		justify-content space-between
+
+		> div
+			display flex
+
+		.left
+			display flex
+			height 56px
+			align-items center
+			
+			> a
+				display flex
+				height 100%
+
+			.home
+				width 60px
+
+			.app
+				display flex
+				align-items center
+
+				h2
+					height 25px
+					padding-left 10px
+					border-left 2px solid #ef8d32
+					color #ef8d32
+					display flex
+					align-items center
+
+		.right
+			display flex
+			align-items center
+			
+			.actions
+				margin-right 5px
+
+			.menu > div
+				background-color #7d98b3
+				cursor pointer
+				width 35px
+				height 35px
+
+				&:hover
+					opacity 0.8
+
+.app-header-menu-item
+	svg
+		margin-right 10px
+		color rgba(0, 0, 0, 0.54)
+		
+	> a
+		display flex
+		color inherit
