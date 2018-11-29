@@ -1,5 +1,4 @@
-# Zap Surgical web components library
-ZapWebCommon, UI platform for Zap Surgical web apps.
+# Material UI React web components library
 
 # scripts
 yarn start
