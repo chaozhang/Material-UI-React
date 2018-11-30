@@ -37,7 +37,7 @@
         "dev": "gulp",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "http://zap-web-common.s3-website-us-west-1.amazonaws.com/",
+    "homepage": "https://chaozhang.github.io/Material-UI-React/",
     "files": [
         "lib"
     ],
