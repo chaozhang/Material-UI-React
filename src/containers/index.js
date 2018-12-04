@@ -44,7 +44,7 @@ class App extends Component {
         }
 
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={"/Material-UI-React"}>
                 <React.Fragment>
                     {/* render app header */}
                     <AppHeader {...headerProps} />
