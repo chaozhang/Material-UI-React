@@ -5,7 +5,7 @@ const Footer = () => {
     const year = (new Date()).getFullYear().toString();
 
     return <footer>
-        <p>Zap Surgical Systems, Inc &copy; {year}, All rights reserved.</p>
+        <p>Material UI React &copy; {year}, All rights reserved.</p>
     </footer>
 }
 

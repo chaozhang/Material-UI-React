@@ -34,11 +34,6 @@ const navItems = [
           icon: 'NavigateNext'
         },
         {
-          label: 'Form',
-          url: BASE_URL + 'components/form',
-          icon: 'NavigateNext'
-        },
-        {
           label: 'Tabs',
           url: BASE_URL + 'components/tabs',
           icon: 'NavigateNext'

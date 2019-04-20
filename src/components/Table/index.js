@@ -30,7 +30,7 @@ class Table extends Component {
 
     componentDidMount() {
         if (this.props.timeOut) {
-            const timeOutDuration = this.props.timeOut == true ? 60 * 1000 : this.props.timeOut
+            const timeOutDuration = this.props.timeOut === true ? 60 * 1000 : this.props.timeOut
             this.setState({
                 timer: setInterval(() => {
                     if (Date.now() - this.state.mountTime > timeOutDuration) {
