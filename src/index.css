@@ -1052,7 +1052,7 @@ pre[class*="language-"] {
   outline: none;
   background: #ef8d32;
   color: #fff;
-  height: 45px;
+  height: 40px;
 }
 .ReactTable .rt-thead .rt-th .rt-resizable-header-content,
 .ReactTable .rt-thead .rt-td .rt-resizable-header-content {

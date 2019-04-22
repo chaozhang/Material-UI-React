@@ -16,7 +16,7 @@ const Home = () => {
                 <CardContent>
                     <Typography variant="subheading" gutterBottom>
                         {`Zap Design Sytem is open source React components library 
-                            following industry design standard like Google Material Design, alesforce Lightning, Uber React Vis and others.`}
+                            following industry design standard like Google Material Design, Salesforce Lightning, Uber React Vis and others.`}
                     </Typography>
                 </CardContent>
             </Card>

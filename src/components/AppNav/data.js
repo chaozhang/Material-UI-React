@@ -69,11 +69,6 @@ const navItems = [
           icon: 'NavigateNext'
         },
         {
-          label: 'Upload',
-          url: BASE_URL + 'components/upload',
-          icon: 'NavigateNext'
-        },
-        {
           label: 'Markdown',
           url: BASE_URL + 'components/markdown',
           icon: 'NavigateNext'
